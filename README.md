@@ -1,5 +1,4 @@
 # flutter_riverpood_clean_archi
-
 A new Flutter project.
 
 ## Getting Started
