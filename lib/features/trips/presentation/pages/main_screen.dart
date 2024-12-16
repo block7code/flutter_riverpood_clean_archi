@@ -9,7 +9,7 @@ class MainScreen extends ConsumerWidget {
   final PageController _pageController = PageController();
   final ValueNotifier<int> _currentPage = ValueNotifier<int>(0);
   String profilPic =
-      "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=60&w=500&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHByb2ZpbGV8ZW58MHx8MHx8fDA%3D";
+      "https://media.istockphoto.com/id/871752462/id/vektor/tempat-penampung-abu-abu-default.jpg?s=612x612&w=0&k=20&c=CGn3VCs2_c2eAhJmhfOpmr-wDhxFjDVMZoSycvzwqmY=";
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -36,7 +36,7 @@ class MainScreen extends ConsumerWidget {
                   color: Colors.black),
             ),
             Text(
-              'Travelling Today ?',
+              'Task Today ?',
               style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.bold,
